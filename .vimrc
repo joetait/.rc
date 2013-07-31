@@ -1,6 +1,9 @@
 "Makes W save as root"
 command W :w !sudo tee %
 
+"save and commit"
+command C :!git commit -a
+
 "set default spell check language to British English"
 let dialect='UK'
 
