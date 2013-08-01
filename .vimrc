@@ -4,6 +4,9 @@ command W :w !sudo tee %
 "save and commit"
 command C :!git commit -a
 
+"perform pdflatex in command line"
+command Comp :!pdflatex %
+
 "set default spell check language to British English"
 let dialect='UK'
 
