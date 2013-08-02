@@ -15,3 +15,5 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
+"case insensitive search by default"
+set ignorecase
