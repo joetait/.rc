@@ -104,3 +104,6 @@ fi
 
 #add paths here
 PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH
+
+#set vi editing mode as standard for bash
+set -o vi
