@@ -28,3 +28,7 @@ set incsearch
 
 "set colorscheme"
 colorscheme evening
+
+"set hybrid linenumbers"
+set relativenumber
+set number
