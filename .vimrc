@@ -8,7 +8,8 @@ command C :!git commit -a
 "perform pdflatex in command line"
 command Comp :!pdflatex %
 
-"set default spell check language to British English"
+"set spell check on and default spell check language to British English"
+set spell
 let dialect='UK'
 
 "settings for tab - turns tab in to four spaces"
