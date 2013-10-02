@@ -33,3 +33,6 @@ colorscheme evening
 "set hybrid linenumbers"
 set relativenumber
 set number
+
+"set clipboard so that I can copy and paste from and to other programs"
+set clipboard=unnamed
