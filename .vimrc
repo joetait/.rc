@@ -41,3 +41,19 @@ set number
 "  %    :  saves and restores the buffer list
 "  n... :  where to save the viminfo files
 set viminfo='10,\"100,:20,%,n~/.viminfo
+
+"Set highlight to colour item under cursor differently from other matches
+highlight CurSearch ctermbg=red
+nnoremap <silent> N N:silent! call HighlightCurrentMatch()<CR>
+nnoremap <silent> n n:silent! call HighlightCurrentMatch()<CR>
+
+function! HighlightCurrentMatch()
+    let col = col(".") - 1
+    let endCol = searchpos(getreg("/"), "cne")[1] + 1
+    let line = line(".")
+    let matchPat = '/\%' . line . 'l\%>' . col . 'c\%<' . endCol . 'c/'
+    echomsg matchPat
+
+    3match none
+    exe ':3match CurSearch ' . matchPat
+endfunction
