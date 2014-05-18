@@ -60,3 +60,6 @@ endfunction
 
 "Remove ex mode 
 nnoremap Q <nop>
+
+"remap to make it easier to turn search highlighting on and off
+nnoremap <silent> <Leader>/ :nohlsearch<CR>
