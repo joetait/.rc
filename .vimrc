@@ -57,3 +57,6 @@ function! HighlightCurrentMatch()
     3match none
     exe ':3match CurSearch ' . matchPat
 endfunction
+
+"Remove ex mode 
+nnoremap Q <nop>
