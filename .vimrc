@@ -66,7 +66,11 @@ nnoremap Q <nop>
 "remap to make it easier to turn search highlighting on and off
 nnoremap <silent> <Leader>/ :nohlsearch<CR>
 
+"Add full colour options for gnome-terminal
 if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
+
+"map zz to turn scroll on and off
+nnoremap <leader>zz :let &scrolloff=999-&scrolloff<CR>
 
