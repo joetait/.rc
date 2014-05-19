@@ -74,3 +74,5 @@ endif
 "map zz to turn scroll on and off
 nnoremap <leader>zz :let &scrolloff=999-&scrolloff<CR>
 
+"remap "Y" so that it yanks to end of line
+:nnoremap Y y$
