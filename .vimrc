@@ -27,8 +27,10 @@ set ignorecase
 "set incremental search on"
 set incsearch
 
-"set colorscheme"
-colorscheme evening
+"set color scheme"
+syntax enable
+set background=dark
+colorscheme solarized
 
 "set hybrid linenumbers"
 set relativenumber
