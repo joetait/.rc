@@ -65,3 +65,8 @@ nnoremap Q <nop>
 
 "remap to make it easier to turn search highlighting on and off
 nnoremap <silent> <Leader>/ :nohlsearch<CR>
+
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
+
