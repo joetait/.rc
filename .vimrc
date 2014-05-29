@@ -1,3 +1,6 @@
+"Set space as leader
+let mapleader=" "
+
 "Custom commands"
 "Makes W save as root"
 command W :w !sudo tee %
@@ -74,5 +77,5 @@ endif
 "map zz to turn scroll on and off
 nnoremap <leader>zz :let &scrolloff=999-&scrolloff<CR>
 
-"remap "Y" so that it yanks to end of line
-:nnoremap Y y$
+"Set Y to do what I would expect it to (i.e. yank till end of line)
+nnoremap Y y$
