@@ -79,3 +79,6 @@ nnoremap <leader>zz :let &scrolloff=999-&scrolloff<CR>
 
 "Set Y to do what I would expect it to (i.e. yank till end of line)
 nnoremap Y y$
+
+"Set leader space to clear last search
+nnoremap <leader> <space> = :let @/ = "" <CR>
