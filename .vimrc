@@ -82,3 +82,6 @@ nnoremap Y y$
 
 "Set leader space to clear last search
 nnoremap <leader> <space> = :let @/ = "" <CR>
+ 
+"Set global flag as default for search and replace (i.e. replace all occurrences on the line by default
+set gdefault
