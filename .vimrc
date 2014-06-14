@@ -85,3 +85,6 @@ nnoremap <leader> <space> = :let @/ = "" <CR>
  
 "Set global flag as default for search and replace (i.e. replace all occurrences on the line by default
 set gdefault
+
+" maps leader b to insert \left and \right before matching pairs of braces
+nmap <Leader>b i\left<Esc>%i\right<Esc>
