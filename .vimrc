@@ -20,6 +20,11 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
+"Turn on autoindent and smartindent
+set autoindent
+set smartindent
+
+
 "search things"
 "highlight search matches"
 set hlsearch
