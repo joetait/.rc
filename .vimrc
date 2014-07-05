@@ -93,3 +93,6 @@ set gdefault
 
 " maps leader b to insert \left and \right before matching pairs of braces
 nmap <Leader>b i\left<Esc>%i\right<Esc>
+
+" Shows incomplete commands in the lower right corner of screen
+set showcmd
