@@ -1,0 +1,8 @@
+#!/bin/bash
+#Enter files/tex and pull from remote repository
+cd ~/files/tex
+git pull
+
+# Enter .vim folder and pull from remote repository
+cd ~/.vim
+git pull
