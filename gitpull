@@ -6,3 +6,17 @@ git pull
 # Enter .vim folder and pull from remote repository
 cd ~/.vim
 git pull
+
+# Enter .rc folder and pull from remote repository
+cd ~/files/.rc
+git pull
+
+# Enter texmf folder and pull from remote repository
+cd ~/texmf
+git pull
+
+# Enter .vim folder and pull from remote repository
+cd ~/files/computing/website/personal_sidebar
+git pull
+
+
